@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.gameevent.TickEvent
 
 object SelectionHighlight : Module(
     name = "SelectionHighlight",
-    description = "Highlights object you are looking at",
+    description = "Highlights the object you are looking at",
     category = Category.RENDER
 ) {
     val block by setting("Block", true)
