@@ -12,7 +12,7 @@ import net.minecraftforge.client.event.ClientChatReceivedEvent
 
 object ChatTimestamp : Module(
     name = "ChatTimestamp",
-    description = "Shows the time a message was sent beside the message",
+    description = "Shows the timestamp a chat message was sent",
     category = Category.CHAT,
     showOnArray = false
 ) {
