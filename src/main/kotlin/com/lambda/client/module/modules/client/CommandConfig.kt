@@ -14,7 +14,7 @@ import org.lwjgl.opengl.Display
 
 object CommandConfig : Module(
     name = "CommandConfig",
-    description = "Configures client chat related stuff",
+    description = "Configures clientside chat related functions",
     category = Category.CLIENT,
     showOnArray = false,
     alwaysEnabled = true
