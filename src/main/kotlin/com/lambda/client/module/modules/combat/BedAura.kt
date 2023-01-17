@@ -38,7 +38,7 @@ import java.util.*
 @CombatManager.CombatModule
 object BedAura : Module(
     name = "BedAura",
-    description = "Place bed and kills enemies",
+    description = "Places beds and detonates them near enemies",
     category = Category.COMBAT,
     modulePriority = 70
 ) {
